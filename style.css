@@ -1,0 +1,107 @@
+.topnav {
+	background-color: gray;
+	overflow: hidden;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+.topnav .icon {
+	display: none;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: .5s;
+}
+.topnav a:hover {
+	text-shadow: 2px 4px 5px cyan;
+	transiition: .3s;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ai_hero.jpg");
+	height: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+  }
+  
+  .hero-text {
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+  }
+  input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 15px;
+	  margin: 5px 0 22px 0;
+	  display: inline-block;
+	  border: none;
+	  background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+	background-color: #ddd;
+	outline: none;
+  }
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+  button {
+	background-color: grey;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+  }
+  .daftar button:hover {
+	  text-shadow: 2px 4px 5px cyan;
+	  transition: .3s;
+ }
+ button:hover {
+	 opacity: 1;
+ }
+
+ .cancelbtn {
+	 padding: 14px 20px;
+	 background-color: grey;
+ }
+.cancelbtn, .signupbtn {
+	float: left;
+	width: 50%;
+  }
+  
+  .container {
+	padding: 16px;
+  }
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+ @media screen and (max-width: 300px) {
+	.cancelbtn, .signupbtn {
+	   width: 100%;
+	}
+  }
